@@ -1,0 +1,163 @@
+@font-face { font-family: Nexa-Light; font-style: normal; font-weight: normal; src: url('../fonts/Nexa/Nexa-Light.otf'); }
+@font-face { font-family: Roboto-Bold; font-style: normal; font-weight: normal; src: url('../fonts/Roboto/Roboto-Bold.ttf'); }
+@font-face { font-family: Roboto-Medium; font-style: normal; font-weight: normal; src: url('../fonts/Roboto/Roboto-Medium.ttf'); }
+
+
+.text-NL{ font-family: Nexa-Light; }
+.text-RB{ font-family: Roboto-Bold; }
+.text-RM{ font-family: Roboto-Medium; }
+
+.text-45{ font-size: 2.2em;text-align:center }
+.text-41{ font-size: 41px; }
+.text-32{ font-size: 32px; }
+.text-19{ font-size: 19px; }
+.text-17{ font-size: 17px; }
+.text-13{ font-size: 13px; }
+
+
+.color-1{ color: #5c5d5f; }
+.color-2{ color: #39627b; }
+.color-3{ color: #797878; }
+.color-white{ color: white; }
+
+.body-head{ background-image: url(../images/website-desktop-header.png); }
+
+.cabezera{ background: transparent url('../images/website-desktop-header-title.png') no-repeat; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: 100% 100%; height:100%;}
+
+.logo-md{ margin-top: 90px; }
+
+.share-box { background: transparent url('../images/sharebox-header.png') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; height: 69px; width: 394px;padding-top: 8px;}
+
+.fondo-left{ background: white; border-radius: 10px; padding: 0; }
+
+.titulo-1{ background: #39627b; padding-top: 5px; padding-left: 10px;padding-bottom: 5px; }
+
+.box-simple{  outline: none; border: none !important; -webkit-box-shadow: none !important; -moz-box-shadow: none !important; box-shadow: none !important; border-radius: 0; border-bottom: 2px solid #d3d3d3 !important; resize: none;}
+
+
+
+.box-complejo { 
+	outline: none; border: none !important;
+	 -webkit-box-shadow: none !important; -moz-box-shadow: none !important;
+  	box-shadow: none !important; border-radius: 10px; background-color: #d3d3d3; resize: none;
+	height:auto;
+}
+
+.separator{
+	border-bottom: 2px solid #d3d3d3; margin-left: 10px; margin-right: 10px;
+}
+
+.decora-title{
+	background-image: url(../images/website-desktop-titulos-derecha.png); 
+	-webkit-background-size: cover; -moz-background-size: cover;
+	 -o-background-size: cover;
+	 height: 20%px;}
+
+.asedi {
+  background: #fffff;
+  box-shadow: inset 1px 1px 8px rgba(0,0,0,0.2);
+  min-width: 170px;
+  padding: 19px 0;
+  width: 100%;
+}
+.asedi h1 {
+  background-color: #5c5d5f;  
+  border-radius: 3px 0 0 3px;
+  box-shadow: 0 1px 4px rgba(92,93,95,0.1);
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 1.2em;
+  margin: 0 0 0px 0px;
+  padding: 4px 0 4px 12px;
+  position: relative;
+  width: 102%;
+  height: auto;
+}
+.asedi h1:after {
+  border-color: #5c5d5f transparent transparent #5c5d5f;
+  border-style: solid;
+  border-width: 6px;
+  bottom: -12px;
+  content: "";
+  position: absolute;
+  right: 0;
+}
+.asedi h1:before {
+  color: #fff;
+  content: "";
+  font: 26px sans-serif;
+  position: absolute;
+  right: 12px;
+  top: -2px;
+}
+
+.fondo-1{ background-color: #797878; }
+
+
+.caja-simple
+  {
+      height:auto;
+      margin-top:10px;
+      padding-right: 10px;
+      padding-left: 10px;
+  }
+       
+.logoprin{
+	display:block;
+}
+
+.textheader{
+	margin-left:6%;
+	margin-top:7%;
+}
+
+
+@media all and (max-width:990px) {
+
+	  .calendar1 {
+	    display: none;
+	  }
+	  
+	  .drawer{
+	    display:block;
+	  }
+	  
+	  .text-45{
+	    font-size:1.3em;
+	  }
+	  
+	  .text-19{
+	    font-size:1.1em;
+	    text-align:center;
+	  
+	  
+	        
+	  }
+	  
+	  .body-head{
+	  		 background-image: url(../images/Mobile/app-mobile-header.png);
+	  }
+
+	  .cabezera{ background: transparent url('../images/Mobile/app-mobile-header-title.png') no-repeat;
+	  			 -webkit-background-size: cover;
+	  			  -moz-background-size: cover;
+	  			  -o-background-size: cover;
+	  			   background-size: 100% 100%;
+	  			   height:100%;
+	  	}
+	  	
+	  	
+.logoprin{
+	display:block;
+	margin:auto;
+}
+
+.textheader{
+	margin-left:6%;
+	margin-top:7%;
+	font-size:1.2em;
+}
+  	
+}
+
+
